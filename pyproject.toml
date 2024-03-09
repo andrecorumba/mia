@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mia"
+version = "0.1.0"
+description = "Medical Insight and Analysis"
+authors = ["Andre Luiz Monteiro da Rocha <andrecorumba@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
